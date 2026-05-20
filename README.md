@@ -57,11 +57,3 @@ To combat the traditional "NaN Gradient Explosion" common when calculating conti
 
 ---
 
-##  Quick-Start Pipeline Guide
-
-The entire dataset handles streaming cloud fetches dynamically. You can replicate this project inside any blank Python workspace using these sequential notebook execution steps:
-
-### 1. Cloud Infrastructure Download
-Pulls the original audio dataset into your cloud storage and extracts file trees instantly:
-```python
-!curl -L -o /content/genres_original.zip "[https://www.kaggle.com/api/v1/datasets/download/andradaolteanu/gtzan-dataset-music-genre-classification](https://www.kaggle.com/api/v1/datasets/download/andradaolteanu/gtzan-dataset-music-genre-classification)"
